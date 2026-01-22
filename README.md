@@ -12,7 +12,7 @@ This application predicts whether someone is eligible for a loan based on inputs
 - Accessible via Streamlit Community Cloud.
 
 ## Dataset
-The application is trained on the **German Credit Risk dataset**, a widely used dataset for evaluating creditworthiness. It includes features like:
+The application includes features like:
 - Age
 - Job
 - Housing status
@@ -27,33 +27,3 @@ The application is trained on the **German Credit Risk dataset**, a widely used 
 - **Pandas** and **NumPy**: For data preprocessing and manipulation.
 - **Matplotlib** and **Seaborn**: For exploratory data analysis and visualization (if applicable).
 
-## Model
-The predictive model is trained using the German Credit Risk dataset. It applies preprocessing steps like encoding categorical variables and scaling numerical features. The classification model used may include algorithms such as Logistic Regression, Random Forest, or XGBoost.
-
-## Future Enhancements
-* Adding support for multiple datasets.
-* Incorporating explainability tools like SHAP to provide insights into predictions.
-* Adding visualizations to better represent user input and model predictions.
-
-## Installation (for local deployment)
-If you want to run the application locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/credit_eligibility_application.git
-   cd credit_eligibility_application
-
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows, use `env\\Scripts\\activate`
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-
-4. Run the Streamlit application:
-   ```bash
-   streamlit run app.py
-
-#### Thank you for using the Credit Eligibility Application! Feel free to share your feedback.
